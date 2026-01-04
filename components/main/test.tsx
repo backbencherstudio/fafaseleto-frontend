@@ -99,12 +99,12 @@ const RightSide = () => {
     <div>
       <div className="flex items-end">
         {/* before */}
-        <div className="w-[117px] md:w-[193px] h-[361px] md:h-[461.047px] [background:#CCF7D2] rounded-[12px_0_0_0] pl-7.5 pt-3.5 relative">
+        <div className="w-[117px] md:w-[193px] h-[461.047px] [background:#CCF7D2] rounded-[12px_0_0_0] pl-7.5 pt-3.5 relative">
           <p className="text-[#F00F0F] [font-family:Inter] text-xl italic font-medium leading-[normal] tracking-[-2px] mb-[9px]">
             Before
           </p>
 
-          <div className="w-[300px] md:w-[335.818px] h-[337px] md:h-[447.756px] ">
+          <div className="w-[335.818px] h-[447.756px] ">
             <img className="   " src="/images/before-cv2.svg" alt="" />
           </div>
 
@@ -120,13 +120,13 @@ const RightSide = () => {
         </div>
 
         {/* after */}
-        <div className="w-[330px] md:w-[335px] md:w-[411px] h-[400px] md:h-[555px]  [background:linear-gradient(157deg,rgba(16,185,129,0.70)_-1.1%,rgba(7,83,58,0.70)_146.07%)] rounded-[12px_12px_0_0] z-50 pl-9 pt-4.5 relative ">
+        <div className="w-[335px] md:w-[411px] h-[555px]  [background:linear-gradient(157deg,rgba(16,185,129,0.70)_-1.1%,rgba(7,83,58,0.70)_146.07%)] rounded-[12px_12px_0_0] z-50 pl-9 pt-4.5 relative">
           <p className="text-white  text-xl italic font-medium leading-[normal] tracking-[-2px] mb-[11px]">
             After
           </p>
 
-          <div className="  md:w-[400px] md:h-[455px] md:h-[555px]">
-            <img className="" src="/images/after-cv.svg" alt="" />
+          <div className="w-[400px] h-full">
+            <img className="w-fit h-" src="/images/after-cv.svg" alt="" />
           </div>
 
           <div className=" absolute z-90 -right-15 -bottom-4">
@@ -149,71 +149,45 @@ const RightSide = () => {
     </div>
   );
 };
+
 const ScoreCard = ({
-  type = "Before",
+  type = "Before", // "Before" or "After"
   title = "Messy Structure",
   statusLabel = "Average",
   score = "34",
-  color = "#F00F0F",
+  color = "#F00F0F", // Default red from your code
 }) => {
   return (
-    <div
-      className="
-        w-[min(92vw,180px)]
-        md:w-[183px]
-        h-auto
-        bg-white
-        border border-gray-50
-        rounded-lg
-        shadow-sm
-        px-3 py-3
-        md:px-4 md:py-3.5
-      "
-    >
-      {/* Type */}
+    <div className="w-[183.275px] h-[126px] bg-white p-[13px_15px_14px_17px] rounded-lg shadow-sm  border-gray-50">
+      {/* Type Label (Before/After) */}
       <p
-        style={{ color }}
-        className="
-          text-[10px] md:text-xs
-          font-medium
-          tracking-[-0.2px] md:tracking-[-0.24px]
-          capitalize
-          mb-1.5 md:mb-2
-        "
+        style={{ color: color }}
+        className="self-stretch [leading-trim:both] [text-edge:cap] font-sans text-xs font-medium leading-[normal] tracking-[-0.24px] capitalize pb-[7px]"
       >
         {type}
       </p>
 
-      {/* Title */}
-      <p
-        className="
-          text-[#7B8285]
-          text-[11px] md:text-xs
-          font-medium
-          tracking-[-0.2px] md:tracking-[-0.24px]
-          uppercase
-          leading-snug
-        "
-      >
+      {/* Main Title */}
+      <p className="text-[#7B8285] font-sans text-xs font-medium leading-[normal] tracking-[-0.24px] uppercase">
         {title}
       </p>
 
       {/* Divider */}
-      <div className="opacity-[0.15] bg-[#0D1B2A] mt-2 mb-2.5 h-px" />
+      <div className="opacity-[0.15] bg-[#0D1B2A] mt-2.5 mb-[15px] h-[1px]" />
 
-      {/* Status */}
-      <div className="flex items-center gap-2 mb-1.5">
+      {/* Status Row */}
+      <div className="flex mb-1.5 gap-[3.75px] items-center">
         <div
           style={{ backgroundColor: color }}
-          className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-[2px] shrink-0"
+          className="w-[12.858px] h-[12.858px] rounded-[1.837px]"
         />
-        <p className="text-black text-[11px] md:text-xs font-medium tracking-[-0.2px] opacity-40 whitespace-nowrap">
+        <p className="text-black [leading-trim:both] [text-edge:cap] text-xs font-medium leading-[normal] tracking-[-0.24px] capitalize opacity-40">
           {statusLabel}
         </p>
       </div>
 
-      {/* Score */}
-      <h4 className="text-black text-sm md:text-base font-bold tracking-[-0.3px] leading-none">
+      {/* Final Score */}
+      <h4 className="self-stretch text-black font-sans text-base font-bold leading-[normal] tracking-[-0.32px] capitalize">
         {score}/100
       </h4>
     </div>

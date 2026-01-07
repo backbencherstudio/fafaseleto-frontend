@@ -17,7 +17,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground: #0a0a0a;
-    --background: #FAFAFA;
+    --background: #fafafa;
   }
 }
 
@@ -31,7 +31,6 @@ body {
 .font-secondary {
   font-family: var(--font-crimson-pro), serif;
 }
-
 
 /* 
 .hero {
@@ -53,3 +52,17 @@ body {
     height: 120px;
   }
 } */
+
+/* Customize Swiper Dots */
+.swiper-pagination-bullet {
+  background: #d1d5db !important; /* Light gray for inactive */
+  opacity: 1 !important;
+  width: 13px !important;
+  height: 13px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0d1b2a !important; /* Dark color for active */
+  width: 13px !important;
+  height: 13px !important;
+}

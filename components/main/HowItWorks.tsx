@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function HowItWorks() {
   return (
     <div>
-      <section className="bg-[#F4F4F5] pt-11 px-4">
-        <div className=" md:px-0 max-w-7xl mx-auto ">
+      <section className="bg-[#F4F4F5] pt-11 px-4 pb-10 md:pb-20">
+        <div className=" md:px-0 max-w-7xl mx-auto">
           {/* title */}
           <SectionHeading className="max-w-[486px]  px-5">
             How does it work? <br className="hidden md:block" /> In 3 minutes.
@@ -145,17 +145,6 @@ export default function HowItWorks() {
               <div className="w-[315px] h-[163px] [background:linear-gradient(180deg,rgba(255,255,255,0.00)_0%,#FFF_37.37%)] rounded-2xl absolute left-0 bottom-[51px] z-20"></div>
             </div>
           </div>
-        </div>
-
-        {/* bottom curve */}
-        <div className="w-full h-10 md:h-20 -mt-px rotate-180 ">
-          <svg
-            className="w-full h-full block"
-            viewBox="0 0 1440 100"
-            preserveAspectRatio="none"
-          >
-            <path d="M0,0 Q720,100 1440,0 L1440,100 L0,100 Z" fill="#f4f4f5" />
-          </svg>
         </div>
       </section>
 

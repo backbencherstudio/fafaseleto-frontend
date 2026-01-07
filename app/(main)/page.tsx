@@ -4,6 +4,7 @@ import HowItWorks from "@/components/main/HowItWorks";
 import PricingPlan from "@/components/main/PricingPlan";
 import WhyPostulae from "@/components/main/WhyPostulae";
 import FaqSection from "@/components/main/FaqSection";
+import UploadSection from "@/components/main/UploadSection";
 export default function page() {
   return (
     <div>
@@ -13,6 +14,7 @@ export default function page() {
       <PricingPlan />
       <WhyPostulae />
       <FaqSection />
+      <UploadSection/>
     </div>
   );
 }

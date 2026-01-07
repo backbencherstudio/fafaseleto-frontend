@@ -29,7 +29,7 @@ export default function WhyPostulae() {
 
         {/* testmonials */}
 
-        <section className="pt-20">
+        <section className="pt-24">
           <SectionHeading>Testimonials</SectionHeading>
           <TestimonialSlider />
         </section>

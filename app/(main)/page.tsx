@@ -15,6 +15,7 @@ export default function page() {
       <WhyPostulae />
       <FaqSection />
       <UploadSection/>
+      
     </div>
   );
 }

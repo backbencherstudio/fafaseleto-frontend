@@ -12,7 +12,7 @@ import SettngIcon from "../icons/SettngIcon";
 export default function UploadSection() {
   return (
     <div>
-      <section className="bg-[#F4F4F5] pt-20">
+      <section className="bg-[#F4F4F5] pt-20 px-4 md:px-0">
         <div className="md:px-18 px-4 max-w-7xl mx-auto  min-h-[350px] [background:var(--1,#0D1B2A)] flex flex-col md:flex-row justify-between items-center ">
           {/* Left Side: img */}
           <LeftSide />
@@ -26,7 +26,7 @@ export default function UploadSection() {
               a CV designed to impress.
             </p>
 
-            <button className="flex justify-center items-center gap-3 [background:#FFF] px-[29px] py-[9px] md:py-[19px] rounded-lg mx-auto text-[color:var(--1,#0D1B2A)] [font-family:Inter] text-lg font-bold leading-[normal]">
+            <button className="flex justify-center items-center gap-3 [background:#FFF] px-[29px] py-[9px] md:py-[19px] rounded-lg mx-auto text-[color:var(--1,#0D1B2A)] [font-family:Inter] text-lg font-bold leading-[normal] cursor-pointer">
               Upload Your CV
             </button>
           </div>
@@ -37,7 +37,7 @@ export default function UploadSection() {
       </section>
 
       {/* bottom curve */}
-      <div className="w-full h-10 md:h-20 -mt-px rotate-180 ">
+      {/* <div className="w-full h-10 md:h-20 -mt-px rotate-180 ">
         <svg
           className="w-full h-full block"
           viewBox="0 0 1440 100"
@@ -45,7 +45,7 @@ export default function UploadSection() {
         >
           <path d="M0,0 Q720,100 1440,0 L1440,100 L0,100 Z" fill="#f4f4f5" />
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -66,3 +66,9 @@ body {
   width: 13px !important;
   height: 13px !important;
 }
+
+
+.company-icon{
+        @apply w-[46px] h-[46px] flex items-center justify-center border [background:rgba(255,255,255,0.10)] rounded-[37px] border-solid border-[rgba(255,255,255,0.20)];
+}
+        

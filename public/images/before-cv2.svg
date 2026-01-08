@@ -1,8 +1,8 @@
 <svg width="252" height="415" viewBox="0 0 252 415" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_dd_163_1360)">
 <rect x="2.87305" y="0.574554" width="335.818" height="447.756" rx="8.69429" fill="#FAFAFA"/>
-<rect x="3.16032" y="0.861824" width="335.244" height="447.181" rx="8.40702" stroke="#E5E7EB" stroke-width="0.574539"/>
-<line x1="16.8184" y1="70.146" x2="325.441" y2="70.146" stroke="#E5E5E5" stroke-width="0.843231"/>
+<rect x="3.16032" y="0.861824" width="335.244" height="447.181" rx="8.40702" stroke="#E5E7EB" strokeWidth="0.574539"/>
+<line x1="16.8184" y1="70.146" x2="325.441" y2="70.146" stroke="#E5E5E5" strokeWidth="0.843231"/>
 <rect x="16.873" y="102.575" width="128" height="5" rx="2.5" fill="#E2E8F0"/>
 <rect x="16.873" y="204.575" width="45.037" height="7" rx="3.5" fill="#E2E8F0"/>
 <rect x="16.873" y="215.575" width="128" height="5" rx="2.5" fill="#E2E8F0"/>
@@ -19,7 +19,7 @@
 <rect x="16.873" y="185.575" width="131" height="6" rx="3" fill="#E2E8F0"/>
 <rect x="16.873" y="117.575" width="128" height="5" rx="2.5" fill="#E2E8F0"/>
 <rect x="16.873" y="125.575" width="78" height="5" rx="2.5" fill="#E2E8F0"/>
-<line x1="157.217" y1="85.7785" x2="157.217" y2="402.833" stroke="#E2E8F0" stroke-width="0.843231"/>
+<line x1="157.217" y1="85.7785" x2="157.217" y2="402.833" stroke="#E2E8F0" strokeWidth="0.843231"/>
 <rect x="16.7832" y="277.379" width="78.2994" height="5.05939" rx="2.52969" fill="#E2E8F0"/>
 <rect x="16.7832" y="284.968" width="48.0474" height="5.05939" rx="2.52969" fill="#E2E8F0"/>
 <rect x="16.7832" y="305.022" width="78.2994" height="5.05939" rx="2.52969" fill="#E2E8F0"/>

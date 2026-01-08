@@ -15,7 +15,7 @@ export default function MenuIcon({ className, size = 24 }: IconProps) {
       fill="none"
       className={className}
     >
-      <g clip-path="url(#clip0_240_13183)">
+      <g clipPath="url(#clip0_240_13183)">
         <path
           d="M1 3H17"
           stroke="currentColor"

@@ -10,7 +10,7 @@ export default function DocIcon({ className }: { className?: string }) {
       fill="none"
       className={className}
     >
-      <g clip-path="url(#clip0_240_14171)">
+      <g clipPath="url(#clip0_240_14171)">
         <path
           d="M21.1634 8.82725L18.3393 7.9615L17.4735 10.7856L20.2976 11.6514L21.1634 8.82725Z"
           fill="#0D1B2A"

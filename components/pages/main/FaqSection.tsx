@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import SectionHeading from "../reuseable/SectionHeading";
+import SectionHeading from "../../reuseable/SectionHeading";
 import { MinusIcon, PlusIcon } from "lucide-react";
 
 export default function FaqSection() {

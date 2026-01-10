@@ -1,8 +1,9 @@
 import { CroissantIcon, RefreshCcw } from "lucide-react";
-import { CustomButton } from "../reuseable/CustomButton";
-import RatingStarIcon from "../icons/RatingStarIcon";
-import CrownIcon from "../icons/CrownIcon";
-import CrownIcon2 from "../icons/CrownIcon2";
+import { CustomButton } from "../../reuseable/CustomButton";
+import RatingStarIcon from "../../icons/RatingStarIcon";
+import CrownIcon from "../../icons/CrownIcon";
+import CrownIcon2 from "../../icons/CrownIcon2";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -35,9 +36,11 @@ export default function HeroSection() {
             </p>
 
             <div className="flex items-center gap-4">
-              <CustomButton className="h-[57px] md:h-15">
-                Evaluate my CV
-              </CustomButton>
+              <Link href="/evaluate-cv">
+                <CustomButton className="h-[57px] md:h-15">
+                  Evaluate my CV
+                </CustomButton>
+              </Link>
               <CustomButton className="h-[57px] md:h-15" variant="outline">
                 Optimize my CV
               </CustomButton>

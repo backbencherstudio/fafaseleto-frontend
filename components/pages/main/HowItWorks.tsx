@@ -1,5 +1,5 @@
 import React from "react";
-import SectionHeading from "../reuseable/SectionHeading";
+import SectionHeading from "../../reuseable/SectionHeading";
 import Image from "next/image";
 
 export default function HowItWorks() {

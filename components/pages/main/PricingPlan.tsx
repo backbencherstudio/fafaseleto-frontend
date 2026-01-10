@@ -1,5 +1,5 @@
-import CircleCheckIcon from "../icons/CircleCheckIcon";
-import SectionHeading from "../reuseable/SectionHeading";
+import CircleCheckIcon from "../../icons/CircleCheckIcon";
+import SectionHeading from "../../reuseable/SectionHeading";
 
 export default function PricingPlan() {
   return (
@@ -46,7 +46,6 @@ export default function PricingPlan() {
                     </p>
                   </div>
                 ))}
-              
               </div>
 
               <button className="w-full h-[53px] [background:var(--3,#10B981)] rounded-md text-[color:var(--2,#FAFAFA)] text-center  text-lg font-normal leading-[normal] tracking-[-0.5px] cursor-pointer">

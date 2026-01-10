@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import BrifeCaseIcon from "../icons/BrifeIcon";
-import StarBadgeIcon from "../icons/StarBadgeIcon";
-import CheseIcon from "../icons/CheseIcon";
-import CircularTickIcon from "../icons/CircularTickIcon";
-import DocIcon from "../icons/DocIcon";
-import HatIcon from "../icons/HatIcon";
-import MarkIcon from "../icons/MarkIcon";
-import SettngIcon from "../icons/SettngIcon";
+import BrifeCaseIcon from "../../icons/BrifeIcon";
+import StarBadgeIcon from "../../icons/StarBadgeIcon";
+import CheseIcon from "../../icons/CheseIcon";
+import CircularTickIcon from "../../icons/CircularTickIcon";
+import DocIcon from "../../icons/DocIcon";
+import HatIcon from "../../icons/HatIcon";
+import MarkIcon from "../../icons/MarkIcon";
+import SettngIcon from "../../icons/SettngIcon";
 
 export default function UploadSection() {
   return (

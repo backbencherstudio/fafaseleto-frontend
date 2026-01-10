@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SectionHeading from "../reuseable/SectionHeading";
+import SectionHeading from "../../reuseable/SectionHeading";
 import TestimonialSlider from "./TestimonialsSlider";
 
 export default function WhyPostulae() {

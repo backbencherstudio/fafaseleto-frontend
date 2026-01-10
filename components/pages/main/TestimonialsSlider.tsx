@@ -7,7 +7,7 @@ import { Pagination } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import GoldStarIcon from "../icons/GoldStarIcon";
+import GoldStarIcon from "../../icons/GoldStarIcon";
 
 const testimonials = [
   {

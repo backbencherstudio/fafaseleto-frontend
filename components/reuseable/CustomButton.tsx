@@ -14,7 +14,7 @@ export const CustomButton: React.FC<ButtonProps> = ({
   ...props 
 }) => {
   
-  const baseStyles = "inline-flex items-center justify-center px-[30px] py-3 border  font-bold rounded-lg transition-all duration-200 focus:outline-none cursor-pointer text-nowrap";
+  const baseStyles = "inline-flex items-center justify-center md:px-[30px] md:py-3 px-[20px] py-2 border  font-bold rounded-lg transition-all duration-200 focus:outline-none cursor-pointer text-nowrap";
   
   const variants = {
     // Green solid background, white text

@@ -1,14 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import SectionHeading from "../reuseable/SectionHeading";
+import SectionHeading from "../../reuseable/SectionHeading";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import RatingStarIcon from "../icons/RatingStarIcon";
+import RatingStarIcon from "../../icons/RatingStarIcon";
 
 function ClientOffersSection() {
   return (
@@ -126,8 +126,7 @@ function ClientOffersSection() {
         </div>
       </div>
 
-
-       {/* bottom curve */}
+      {/* bottom curve */}
       <div className="w-full h-10 md:h-20 -mt-px rotate-180 borde bg-[#F4F4F5]">
         <svg
           className="w-full h-full block"

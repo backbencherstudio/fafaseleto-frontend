@@ -1,8 +1,8 @@
 import { CroissantIcon, RefreshCcw } from "lucide-react";
-import { CustomButton } from "../reuseable/CustomButton";
-import RatingStarIcon from "../icons/RatingStarIcon";
-import CrownIcon from "../icons/CrownIcon";
-import CrownIcon2 from "../icons/CrownIcon2";
+import { CustomButton } from "../../reuseable/CustomButton";
+import RatingStarIcon from "../../icons/RatingStarIcon";
+import CrownIcon from "../../icons/CrownIcon";
+import CrownIcon2 from "../../icons/CrownIcon2";
 
 export default function HeroSection() {
   return (
